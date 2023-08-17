@@ -285,6 +285,66 @@ header {
   margin-top: 20px;
 }
 
+.try-panel {
+  margin-right: 20px;
+}
 .learn-more {
-  color: var(--secondary-text-color);
+  margin-left: 20px;
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white !important;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+.learn-more:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+/* Cta-section-two */
+.cta-section-container {
+  flex-direction: column;
+  gap: 30px;
+  color: #183b56;
+}
+.cta-section-two {
+  padding: 120px var(--padding-inline-section) 80px;
+  background-color: white;
+}
+
+.chotu-text {
+  margin-top: 0px;
+  font-size: 0.9rem;
+}
+/* footer */
+
+footer {
+  padding-block: 80px;
+  background-color: #ebf2fa;
+}
+.link-coloumn {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* sub-footer */
+.sub-footer {
+  background-color: #b9cde4;
+  padding: var(--padding-inline-section);
+}
+
+.sub-footer-container {
+  justify-content: center;
+  gap: 30px;
 }
